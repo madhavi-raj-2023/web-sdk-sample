@@ -1,0 +1,29 @@
+{
+  "name": "@test-sdk-user/web-sdk-sample",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/madhavi-raj-2023/web-sdk-sample",
+  "keywords": [],
+  "author": "@test-sdk-user",
+  "license": "ISC",
+  "description": "",
+  "exports": {
+    "require": "./dist/index.js",
+    "default": "./dist/index.modern.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}

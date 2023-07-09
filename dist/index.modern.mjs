@@ -1,0 +1,1 @@
+class t{constructor(t){this.apiKey=void 0,this.apiKey=t.apiKey}logEvent(t,e){console.log(`${t} ${e}`)}}class e extends t{getGetEventLog(t,e){return this.logEvent(t,e)}getProductDetail(t,e,s){return this.logEvent(t,e)}}class s{constructor(t){this.events=void 0,this.events=new e(t)}}export{s as WebSDK};
